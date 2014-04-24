@@ -7,6 +7,7 @@ function Grid(size, previousState) {
 Grid.prototype.empty = function () {
   var cells = [];
 
+  //creating an empty 2D (4x4) array of cells
   for (var x = 0; x < this.size; x++) {
     var row = cells[x] = [];
 
